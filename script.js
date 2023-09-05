@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const min = 10;
         const max = 50;
         const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
-        randomNumberDisplay.textContent = `Random Number: ${randomNumber}`;
+        randomNumberDisplay.textContent = `${randomNumber}`;
     }
 
     document.addEventListener('click', generateRandomNumber);
